@@ -9,7 +9,7 @@ const AllWhatsOn = ({ data }) => {
             i.synopsis,
             i.showtimes[0],
             i.showtimes[1],
-            i.showtimes[2], i.id, i.whatsOnSrcset.medium);
+            i.showtimes[2], i.id, i.shortname);
         return <WhatsOn film={film} key={film.id} />
     });
 

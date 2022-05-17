@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const WhatsOn = (film, key) => {
 
 
@@ -9,7 +10,7 @@ const WhatsOn = (film, key) => {
                 <tbody>
                     <tr>
                         <td width="30%">
-                            <img src={`../assets/${film.film.imgPath}`} width="50%" />
+                            <img src={require(`../assets/${film.film.imgPath}.png`)} width="50%" ></img>
                         </td>
                         <td width="70%" >
                             <h1>{film.film.title}</h1>
